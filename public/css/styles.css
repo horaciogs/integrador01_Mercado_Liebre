@@ -1,55 +1,147 @@
 * {
     box-sizing: border-box;
+    margin: 0%;
+}
+
+body {
     font-family: 'Roboto';
-    margin: 0px;
 }
 
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-h1 {
-    font-size: 24px;
-}
-
-h3 {
-    font-weight: 400;
-    text-align: center;
-}
-
-body .body-header {
+.body-header {
     background-color: #EAC926;
-    padding: 20px;
+    margin: 0px;
+    padding: 5px 5px 0px 5px;
+}
+
+.header-logo-mas-search {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 40%;
+    padding: 5px;
+    margin: 5px;
+    align-self: center;
+    flex-grow: 0.5;
+}
+
+.header-search {
+    display: inline-flex;
+    align-self: center;
+    font-size: 10px;
+    flex-grow: 0.5;
+}
+
+
+.header-texto-compras {
     font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    margin: 10px 5px;
 }
 
-main {
-    width: 90vw;
+.header-burger-menu {
+    background-color: #03264C;
+    color: white;
+    display: block;
+    max-width: 50px;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
     margin: auto;
+    margin-bottom: 5px;
 }
 
-main section article {
-    margin-bottom: 10px;
+.header-nav ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
 }
 
-main section article i{
+.header-nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 2px 2px 0px;
+    color: black;
+}
+
+.header-nav {
+    display: none;
+}
+
+.header-banner {
+    width: 100%;
+}
+
+.body-main {
+    background-color: #ebebeb;
+}
+
+.main-section {
+    width: 90%;
+    margin: auto;
+    background-color: #ebebeb
+ }
+
+.titulares {
+    font-size: 24px;
+    color: #666;
+}
+
+.main-section article {
+    margin: 10px 0px;
+    background-color: white;
+}
+
+main section article div i {
     display: block;
     color: #39b54a;
-    border: 1px solid #39b54a;
+    border: solid 1px #39b54a; 
     border-radius: 100%;
-    padding: 4px;
-    margin: 0% 0% 0% 90%;
+    padding: 3px;
+    margin-left: 90%;
 }
 
-footer {
-    background-color: white;
+.main-article-div {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+
+.article-price {
+    font-size: 18px;
+    flex-grow: 0.30;
+}
+
+.article-desc {
+    display: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.article-off {
+    font-size: 16px;
+    color: #39b54a;
+    flex-grow: 0.70;
+}
+
+.article-price-and-off {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer section {
     text-align: center;
     color: #666;
+    font-size: 10px;
+}
+
+footer section article {
+    margin: 10px;
 }
 
 footer section article i {
@@ -58,46 +150,104 @@ footer section article i {
      margin-bottom: 10px;
  }
 
-.logo {
-    width: 35%;
-    height: 35%;
-}
-
-.burger-menu {
-    display: block;
-    text-align: center;
-    color: #ebebeb;
-    padding: 5px 6px;
-    background-color: #1259c3;
-    border-radius: 10%;
-    margin: auto;
-}
-
-.price {
-    font-size: 18px;
-}
-
-.productDesc-and-off {
-    font-size: 16px;
-}
-
-.header-nav {
-    display: none;
-}
-
-.header-nav ul {
-    list-style: none;
-    margin: 0%;
-    padding: 0;
-}
-
-.header-nav a {
-    text-decoration: none;
-    color: black;
-    display: inline-block;
-    padding: 3px;
+ .footer-final {
+    text-align: left;
+    font-size: 10px;
+    color: #666;
 }
 
 @media (min-width: 361px) {
+   
+    .header-barra-superior {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .header-logo {
+        max-width: 250px;
+        flex-grow: 0.33;
+    }
+
+    .header-search {
+        flex-grow: 0.33;
+        max-width: 250px;
+    }
+
+    .search {
+        max-height: 24px;
+    }
+
+    .header-texto-compras {
+        flex-grow: 0.33;
+        align-self: center;
+        max-width: 250px;
+    }
+
+    .header-burger-menu {
+        display: none;
+    }
+
+    .header-nav {
+        font-size: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-nav ul {
+        display: flex;
+    }
+
+    .header-nav li {
+        margin: 0px 8px;
+    }
+
+    .main-section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .article-desc {
+        display: block;
+    }
+
+    .contenedor-01 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .contenedor-01 article {
+        width: 45%;
+    }
+
+}
+
+@media (min-width: 769px) {
+
+    .header-texto-compras {
+        max-width: none;
+    }
+
+    .header-logo {
+        max-width: 300px;
+    }
+
+    .header-barra-superior {
+        align-items: center;
+    }
+
+    .contenedor-01 article {
+        width: 22.5%;
+    }
+
+    footer section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
 }

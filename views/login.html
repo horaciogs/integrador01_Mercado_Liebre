@@ -10,10 +10,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="./css/normalize.css" rel="stylesheet"/>
+    <link href="./css/styles-register-and-login.css" rel="stylesheet"/>
     <link href="./css/styles.css" rel="stylesheet"/>
+
     <title>Mercado Liebre</title>
 </head>
-<body>
-        
+<body class="login">
+    <form action="/" method="POST">
+        <div class="form-bloques">
+            <input type="text" name="user" placeholder="username" class="form-input">
+        </div>
+        <div class="form-bloques">
+            <input type="password" name="password" placeholder="Contraseña" class="form-input">
+        </div>
+        <button type="submit" class="form-button">Enviar</button>
+    </form>
 </body>
 </html>

@@ -228,10 +228,6 @@ footer section article i {
 
 @media (min-width: 769px) {
 
-    .header-nav {
-        font-size: 14px;
-    }
-    
     .header-texto-compras {
         max-width: none;
     }

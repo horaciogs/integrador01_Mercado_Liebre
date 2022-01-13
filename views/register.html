@@ -10,13 +10,57 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="./css/normalize.css" rel="stylesheet"/>
-    <link href="./css/styles.css" rel="stylesheet"/>
+    <link href="./css/styles-register-and-login.css" rel="stylesheet"/>
     <title>Mercado Liebre</title>
 </head>
 <body>
-    <form action="" method="POST">
-        
-
+    <form action="/" method="POST">
+        <div class="form-bloques">
+            <input type="text" name="name" placeholder="Nombre y apellido" class="form-input">
+        </div>
+        <div class="form-bloques">
+            <input type="text" name="user" placeholder="username" class="form-input">
+        </div>
+        <div class="form-bloques">
+            <label class="form-labels">Fecha de nacimiento</label>
+            <input type="date" name="birthday" class="form-input">
+        </div>
+        <div class="form-bloques">
+            <label class="form-labels">Domicilio</label>
+            <input type="text" name="street" placeholder="Calle" class="form-input">
+            <input type="number" name="number" placeholder="número" class="form-input">
+            <input type="text" name="place" placeholder="piso" class="form-input">
+        </div>
+        <div class="form-bloques">
+            <label class="form-labels">Perfil de usuario</label>
+            <input type="radio" name="profile" value="vendedor" id="buy" class="input-radius">
+            <label for="buy" class="input-radius-labels">Vender</label>
+            <input type="radio" name="profile" value="comprador" id="sell" class="input-radius">
+            <label for="sell" class="input-radius-labels">Comprar</label>
+        </div>
+        <div class="form-bloques">
+            <label class="form-labels">Categorías de interés</label>
+            <div class="form-select">
+                <select name="categorias" multiple>
+                    <option value="electro">Electro</option>
+                    <option value="moda">Moda</option>
+                    <option value="hogar">Hogar</option>
+                    <option value="jugeteria">jugeteria</option>
+                    <option value="vidaSana">Vida sana</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-bloques">
+            <input type="file" name="picture" placeholder="Contraseña" class="form-input-pictures">
+        </div>
+        <div class="form-bloques">
+            <input type="password" name="pass" placeholder="Contraseña" class="form-input">
+        </div>
+        <div class="form-bloques">
+            <input type="password" name="pass" placeholder="Confirmar contraseña" class="form-input">
+        </div>
+        <button type="reset" class="form-button">Borrar</button>
+        <button type="submit" class="form-button">Enviar</button>
     </form>
 </body>
 </html>

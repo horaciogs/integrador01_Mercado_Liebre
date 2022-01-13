@@ -1,0 +1,64 @@
+body {
+    background-color: #ebebeb;
+    margin: 20px 15px;
+    max-width: 760px;
+}
+
+.form-input {
+    padding: 3px;
+    font-family: 'Roboto', sans-serif;
+    border: solid 2px #666;
+    border-radius: 8px;
+    width: 80%;
+    font-weight: bold;
+}
+
+.form-input-pictures {
+    padding: 3px;
+    width: 80%;
+    font-family: 'Roboto';
+    font-style: italic;
+    border: double 2px #666;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+
+.form-select {
+    margin: 10px 20px;
+}
+
+.form-select option {
+    text-align: center;
+    padding: 2px;
+}
+
+.form-bloques {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.input-radius {
+    margin: 5px 2px 5px 5px;
+}
+
+.input-radius-labels {
+    margin: 5px;
+}
+
+.form-labels {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Roboto';
+    color: #666;
+    font-weight: bold;
+}
+
+.form-button {
+    margin: 10px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    background-color: #666;
+    color: white;
+    text-align: center;
+}

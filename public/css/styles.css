@@ -10,30 +10,25 @@ body {
 .body-header {
     background-color: #EAC926;
     margin: 0px;
-    padding: 5px 5px 0px 5px;
 }
 
-.header-logo-mas-search {
+.header-barra-superior {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .header-logo {
-    width: 40%;
-    padding: 5px;
-    margin: 5px;
+    width: 50%;
+    padding: 3px;
     align-self: center;
-    flex-grow: 0.5;
 }
 
 .header-search {
-    display: inline-flex;
-    align-self: center;
+    width: 50%;
     font-size: 10px;
-    flex-grow: 0.5;
+    align-self: center;
 }
 
 
@@ -41,7 +36,9 @@ body {
     font-size: 12px;
     font-weight: 100;
     text-align: center;
-    margin: 10px 5px;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .header-burger-menu {

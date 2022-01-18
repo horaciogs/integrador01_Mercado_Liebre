@@ -14,7 +14,12 @@
     <title>Mercado Liebre</title>
 </head>
 <body>
-    <form action="/" method="POST">
+    <header class="body-header-loginAndReg">
+        <div class="header-logo-loginAndReg">
+            <a href="/"><img src="/images/logo-mercado-liebre.svg"></a>
+        </div>
+    </header>
+    <form action="/" method="POST" class="login-labels">
         <div class="form-bloques">
             <input type="text" name="name" placeholder="Nombre y apellido" class="form-input">
         </div>
@@ -51,7 +56,8 @@
             </div>
         </div>
         <div class="form-bloques">
-            <input type="file" name="picture" placeholder="Contraseña" class="form-input-pictures">
+            <label class="form-labels">Adjunte foto</label>
+            <input type="file" name="picture" accept=".jpg" class="form-input-pictures">
         </div>
         <div class="form-bloques">
             <input type="password" name="pass" placeholder="Contraseña" class="form-input">

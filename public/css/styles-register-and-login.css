@@ -4,6 +4,18 @@ body {
     max-width: 760px;
 }
 
+.body-header-loginAndReg {
+    background-color: #EAC926;
+    margin: 0px;
+    padding: 15px
+}
+
+.header-logo-loginAndReg {
+        width: 30%;
+        text-align: center;
+        margin: 0px;
+}
+
 .form-input {
     padding: 3px;
     font-family: 'Roboto', sans-serif;
@@ -60,5 +72,20 @@ body {
     font-weight: bold;
     background-color: #666;
     color: white;
+    width: 90px;
     text-align: center;
+    border-radius: 5px;
+
+}
+
+.login {
+    text-align: center;
+}
+
+.login-labels {
+    margin-top: 15px;
+}
+
+.form-button:hover {
+    background-color: #0022aa;
 }

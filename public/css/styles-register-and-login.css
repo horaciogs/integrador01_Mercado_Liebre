@@ -20,6 +20,10 @@ body {
         margin: 0px;
 }
 
+.header-logo-loginAndReg:hover {
+    animation: aumentar 700ms linear infinite alternate;
+}
+
 .form-input {
     padding: 3px;
     font-family: 'Roboto', sans-serif;

@@ -7,12 +7,17 @@ body {
     background-color: #ebebeb;
     margin: 20px 15px;
     max-width: 760px;
+
 }
 
 .body-header-loginAndReg {
     background-color: #EAC926;
     margin: 0px;
     padding: 15px
+}
+
+span {
+    font-size: 12px;
 }
 
 .header-logo-loginAndReg {
@@ -95,4 +100,12 @@ input:invalid {
 
 .form-button:hover {
     background-color: #0022aa;
+}
+
+.footer-login {
+    margin-top: 40px;
+}
+
+.footer-register {
+    margin-top: 20px;
 }
